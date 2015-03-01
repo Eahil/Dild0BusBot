@@ -1,3 +1,3 @@
-name = ""
-password = ""
-groups = ["botplayzone"]
+name = "schoolbusdildo"
+password = "bloodred"
+groups = ["seducifer", "twistedsnightmare"]
