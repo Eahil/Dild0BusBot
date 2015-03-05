@@ -11,7 +11,7 @@ class Bot(coco.internals.Manager):
         self.run()
 
     def _on_Message(self, group, user, msg):
-        cmds = ["say", "smd", "<3", "help"]
+        cmds = ["say", "smd", "<3", "ship", "LOL", "help"]
         post = msg.post
         ret = "%s: %s: %s" % (group.name, user, post)
         print(ret)
@@ -36,6 +36,10 @@ class Bot(coco.internals.Manager):
             group.post("Suck My Dick.")
         elif cmd == cmds[2]:
             group.post("*h*+50")
+        elif cmd == cmds[3]: 
+            if (len(args)) < 2: group.post(args[1] + "x" + args[2])
+            else:
+                group.post("Shipped...\n")
         #elif cmd == cmds[-1]:
         #    top = 0
         #    end = length(cmds) - 1
