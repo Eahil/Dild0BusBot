@@ -7,7 +7,7 @@ class Bot(coco.internals.Manager):
         group.setNameColor("ff0")
         group.setFontColor("3bf")
         print("Connected to "+group.name)
-        group.post("I am a dildo bus.")
+        group.post("I am a dildo bus. So suck my tirenuts.")
 
     def _init(self):
         self.run()
